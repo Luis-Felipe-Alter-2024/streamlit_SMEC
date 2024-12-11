@@ -38,6 +38,6 @@ if btn_graficar == True:
     resultado = util.arboles(df2, num_arbol)
 else:
     st.header(f'Árbol de Decisión')
-    image = Image.open('media\\arbol_default.png')
+    image = Image.open('media/arbol_default.png')
     st.image(image, caption="Árboles de Decisión", use_container_width=True)
 
