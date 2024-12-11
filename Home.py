@@ -31,7 +31,7 @@ with center_col:
     """)
 
 
-    image = Image.open("media\imagen_2.jpeg")
+    image = Image.open("media/imagen_2.jpeg")
     st.image(image, caption="Enfermedad Cardiovascular", use_container_width=True, width=700)
 
     st.header("Key Performance Indicators (KPIs)")
