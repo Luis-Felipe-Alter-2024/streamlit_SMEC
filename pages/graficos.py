@@ -23,7 +23,7 @@ util.generarMenu()
 #título
 st.title("SMEC - Síndrome Metabólico de Enfermedad Cardiovascular")
 
-df = pd.read_csv("data\Datos_Pacientes.csv", index_col=0)
+df = pd.read_csv("data/Datos_Pacientes.csv", index_col=0)
 
 #selector de gráficos
 st.header('Visualizador de Gráficos') 
