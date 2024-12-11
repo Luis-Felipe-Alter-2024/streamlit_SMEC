@@ -32,7 +32,7 @@ with st.sidebar:
 
 #gráfico
 
-df2 = pd.read_csv("data\Datos_Pacientes.csv", index_col=0)
+df2 = pd.read_csv("data/Datos_Pacientes.csv", index_col=0)
 if btn_graficar == True:
     st.header(f'Árbol de Decisión {num_arbol}')
     resultado = util.arboles(df2, num_arbol)
